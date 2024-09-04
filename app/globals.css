@@ -7,6 +7,7 @@
   --secondary-color: #ffffff;
   --primary-accent: #480ca8;
   --secondary-accent: #3a0ca3;
+  --secondary-accent-variant: rgba(58, 12, 163, 0.3);
   --neutral-color: rgba(255, 255, 255, 0.5);
   --font-color: var(--secondary-color);
 }
@@ -20,6 +21,23 @@
 body {
   background-color: var(--primary-color);
   color: var(--font-color);
+}
+.aura {
+  position: fixed;
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at center,
+    rgba(58, 12, 163) 20%,
+    rgba(72, 12, 168) 90%
+  );
+  pointer-events: none; /* Make sure the aura doesn't block clicks */
+  transform: translate(-50%, -50%);
+  filter: blur(100px);
+  z-index: -1;
+  transition: transform 0.2s ease-out, opacity 0.2s ease-out;
+  opacity: 0.2;
 }
 
 @layer utilities {

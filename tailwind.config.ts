@@ -18,6 +18,7 @@ const config: Config = {
         "secondary-color": "#ffffff",
         "primary-accent": "#480ca8",
         "secondary-accent": "#3a0ca3",
+        "secondary-accent-variant": "rgba(58, 12, 163, 0.3)",
         "neutral-color": "rgba(255, 255, 255, 0.5)",
       },
     },
