@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 :root {
-  --primary-color: #0b0b0c;
-  --secondary-color: #ffffff;
-  --primary-accent: #b5179e;
+  --primary-color: rgb(11, 11, 12);
+  --secondary-color: rgb(255, 255, 255);
+  --primary-accent: rgb(181, 23, 158);
   --secondary-accent: rgb(58, 12, 163);
   --secondary-accent-variant: rgba(58, 12, 163, 0.3);
-  --selection-color: #4cc9f0;
+  --selection-color: rgb(76, 201, 240);
   --neutral-color: rgba(255, 255, 255, 0.5);
   --font-color: var(--secondary-color);
 }
