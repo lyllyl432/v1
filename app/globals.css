@@ -3,11 +3,12 @@
 @tailwind utilities;
 
 :root {
-  --primary-color: #000000;
+  --primary-color: #0b0b0c;
   --secondary-color: #ffffff;
-  --primary-accent: #480ca8;
-  --secondary-accent: #3a0ca3;
+  --primary-accent: #b5179e;
+  --secondary-accent: rgb(58, 12, 163);
   --secondary-accent-variant: rgba(58, 12, 163, 0.3);
+  --selection-color: #4cc9f0;
   --neutral-color: rgba(255, 255, 255, 0.5);
   --font-color: var(--secondary-color);
 }
@@ -21,16 +22,17 @@
 body {
   background-color: var(--primary-color);
   color: var(--font-color);
+  overflow-x: hidden;
 }
 .aura {
-  position: fixed;
+  position: absolute;
   width: 800px;
   height: 800px;
   border-radius: 50%;
   background: radial-gradient(
     circle at center,
-    rgba(58, 12, 163) 20%,
-    rgba(72, 12, 168) 90%
+    #b5179e 20%,
+    rgb(58, 12, 163) 90%
   );
   pointer-events: none; /* Make sure the aura doesn't block clicks */
   transform: translate(-50%, -50%);
@@ -38,6 +40,15 @@ body {
   z-index: -1;
   transition: transform 0.2s ease-out, opacity 0.2s ease-out;
   opacity: 0.2;
+}
+::-moz-selection {
+  /* Code for Firefox */
+  background: #4cc9f0;
+}
+
+::selection {
+  color: var(--secondary-accent);
+  background: #4cc9f0;
 }
 
 @layer utilities {

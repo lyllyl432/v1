@@ -32,7 +32,7 @@ const Technologies = () => {
   ];
   return (
     <section className="mt-36">
-      <h3 className="text-secondary-accent font-semibold text-xl">
+      <h3 className="text-primary-accent font-semibold text-xl">
         Technologies
       </h3>
       <div className="flex flex-wrap gap-4 mt-4">
