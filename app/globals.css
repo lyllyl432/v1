@@ -31,8 +31,8 @@ body {
   border-radius: 50%;
   background: radial-gradient(
     circle at center,
-    #b5179e 20%,
-    rgb(58, 12, 163) 90%
+    var(--primary-accent) 20%,
+    var(--secondary-accent) 90%
   );
   pointer-events: none; /* Make sure the aura doesn't block clicks */
   transform: translate(-50%, -50%);
