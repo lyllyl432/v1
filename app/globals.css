@@ -43,12 +43,12 @@ body {
 }
 ::-moz-selection {
   /* Code for Firefox */
-  background: #4cc9f0;
+  background: var(--selection-color);
 }
 
 ::selection {
   color: var(--secondary-accent);
-  background: #4cc9f0;
+  background: var(--selection-color);
 }
 
 @layer utilities {
