@@ -1,5 +1,5 @@
 import React from "react";
-import TechStackProps from "../types/techstacks";
+import TechStackProps from "../types/techStacksProps";
 
 const TechStack: React.FC<TechStackProps> = ({ Icon, name }) => {
   return (
