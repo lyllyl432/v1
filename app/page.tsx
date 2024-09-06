@@ -4,6 +4,7 @@ import MouseAura from "./components/MouseAura";
 import Introduction from "./components/Introduction";
 import SideContent from "./components/SideContent";
 import Layout from "./components/Layout";
+import Experience from "./components/Experience";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <SideContent>
           <Introduction />
           <Technologies />
+          <Experience />
         </SideContent>
       </Layout>
     </>

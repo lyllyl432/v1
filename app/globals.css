@@ -51,6 +51,10 @@ body {
   background: var(--selection-color);
 }
 
+.navigation-list.active .horizontal-nav-line {
+  width: 64px;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

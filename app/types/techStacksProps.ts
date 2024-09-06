@@ -37,6 +37,6 @@ export const techStacks: TechStackProps[] = [
   { Icon: GitIcon, name: "Git" },
   { Icon: Html5Icon, name: "Html 5" },
   { Icon: Css3Icon, name: "Css 3" },
-  { Icon: JavaScriptIcon, name: "Javascript" },
+  { Icon: JavaScriptIcon, name: "JavaScript" },
   { Icon: FigmaIcon, name: "Figma" },
 ];
