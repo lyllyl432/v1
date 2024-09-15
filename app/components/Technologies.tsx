@@ -4,7 +4,7 @@ import { techStacks } from "../types";
 
 const Technologies = () => {
   return (
-    <section className="mt-36">
+    <section className="mt-20 pt-8" id="technologies">
       <h3 className="text-primary-accent font-semibold text-xl">
         Technologies
       </h3>

@@ -5,7 +5,7 @@ import { experience } from "../types";
 import UpRightArrow from "/public/icons/up-right-arrow.svg";
 const Experience = () => {
   return (
-    <section className="mt-36">
+    <section className="mt-20 pt-8" id="experience">
       <h3 className="text-primary-accent font-semibold text-xl">Experience</h3>
       {experience.map((exp) => (
         <ExperienceCard

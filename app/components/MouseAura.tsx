@@ -34,7 +34,7 @@ const MouseAura = () => {
     };
   }, []);
 
-  return <div ref={ref} className="aura"></div>;
+  return <div ref={ref} className="aura hidden lg:block"></div>;
 };
 
 export default MouseAura;

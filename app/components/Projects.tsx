@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <section className="mt-36">
+    <section className="mt-20 pt-8" id="projects">
       <h3 className="text-primary-accent font-semibold text-xl">Projects</h3>
       {projects.map((project) => (
         <ProjectCard

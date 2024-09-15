@@ -4,9 +4,7 @@ interface Props {
 }
 const Layout: React.FC<Props> = ({ children }) => {
   return (
-    <main className="lg:min-h-screen lg:pt-24 max-w-6xl mx-auto">
-      {children}
-    </main>
+    <main className="lg:min-h-screen  max-w-6xl mx-auto px-9">{children}</main>
   );
 };
 

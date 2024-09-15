@@ -13,9 +13,9 @@ const ProjectCard: React.FC<ProjectProps> = ({
   return (
     <>
       <Link href="https://nextjs.org/docs/app/api-reference/components/link">
-        <div className="flex group text-neutral-color font-light gap-4 py-2 px-4 mt-4 hover:bg-secondary-accent-variant hover:text-neutral-color-variant rounded-2xl transition-all">
+        <div className="flex flex-col-reverse sm:flex-row group text-neutral-color font-light gap-4 py-2 px-4 mt-4 hover:bg-secondary-accent-variant hover:text-neutral-color-variant rounded-2xl transition-all">
           <Image
-            className="self-start w-52"
+            className="self-start sm:w-52 w-36 border-2 border-neutral-color rounded-md"
             src={img}
             alt="project image"
             width={100}
