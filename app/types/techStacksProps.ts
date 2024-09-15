@@ -17,7 +17,7 @@ import JavaScriptIcon from "/public/icons/javascript-original.svg";
 import JqueryIcon from "/public/icons/jquery-original.svg";
 //techstacks interface
 export default interface TechStackProps {
-  Icon: React.FC<React.SVGProps<SVGSVGElement>>;
+  Icon?: React.FC<React.SVGProps<SVGSVGElement>>;
   name: string;
 }
 //techstacks icon

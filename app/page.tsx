@@ -5,7 +5,7 @@ import Introduction from "./components/Introduction";
 import SideContent from "./components/SideContent";
 import Layout from "./components/Layout";
 import Experience from "./components/Experience";
-
+import Projects from "./components/Projects";
 export default function Home() {
   return (
     <>
@@ -16,6 +16,7 @@ export default function Home() {
           <Introduction />
           <Technologies />
           <Experience />
+          <Projects />
         </SideContent>
       </Layout>
     </>

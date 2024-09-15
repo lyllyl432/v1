@@ -1,6 +1,5 @@
 import React from "react";
 import ExperienceProps from "../types/experienceProps";
-// import ExperienceProps from "../types/experienceProps";
 
 const ExperienceCard: React.FC<ExperienceProps> = ({
   dateOfEmployment,
