@@ -6,6 +6,7 @@ import SideContent from "./components/SideContent";
 import Layout from "./components/Layout";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 export default function Home() {
   return (
     <>
@@ -17,6 +18,7 @@ export default function Home() {
           <Technologies />
           <Experience />
           <Projects />
+          <Footer />
         </SideContent>
       </Layout>
     </>
