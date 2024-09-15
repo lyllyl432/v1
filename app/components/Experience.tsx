@@ -17,7 +17,11 @@ const Experience = () => {
           setup={exp.setup}
         />
       ))}
-      <Link href={"/pdf/resume.pdf"} className="flex gap-2 group mt-8">
+      <Link
+        href={"/pdf/resume.pdf"}
+        className="flex gap-2 group mt-8"
+        target="_blank"
+      >
         <h3 className="text-secondary-color text-base font-semibold group-hover:text-primary-accent transition ease-in-out">
           View Full <span>Résumé</span>
         </h3>
