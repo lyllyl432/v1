@@ -9,7 +9,7 @@ export default interface ExperienceProps {
 
 export const experience: ExperienceProps[] = [
   {
-    dateOfEmployment: "Feb. 2024",
+    dateOfEmployment: "Feb. 2024 - June. 2024",
     position: "Associate Software Developer",
     company: "Payruler",
     workLocation: "Lahug, Cebu City",
