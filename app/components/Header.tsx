@@ -35,7 +35,7 @@ const Header = () => {
       <header className="lg:fixed lg:max-w-96 sm:pt-24 pt-11">
         <h1 className="font-bold sm:text-5xl text-4xl">John Lyl Auditor</h1>
         <h2 className="font-medium sm:text-2xl text-lg sm:mt-4 mt-3">
-          Full Stack Developer
+          Junior Full Stack Developer
         </h2>
         <p className="text-neutral-color lg:mt-4 mt-3 font-light sm:text-base text-sm">
           I create precise, elegant, and user-friendly digital experiences that
