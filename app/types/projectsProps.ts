@@ -37,6 +37,12 @@ export const projects: ProjectProps[] = [
   },
   {
     img: "/images/trial-project.jpg",
+    projectName: "ShopAPI",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie quam sit amet turpis dapibus, vitae sollicitudin nibh iaculis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum, erat at scelerisque dignissim, dolor lectus commodo augue, tincidunt mollis nunc massa et magna. Integer consectetur commodo facilisis. Phasellus commodo accumsan dapibus. Quisque bibendum, elit eget placerat dapibus, ante urna viverra diam, et condimentum lorem ipsum ac leo. Curabitur id condimentum mauris.",
+    technologies: ["Laravel", "Php", "MySQL", "Git", "Github"],
+  },
+  {
+    img: "/images/trial-project.jpg",
     projectName: "POS and Inventory System",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie quam sit amet turpis dapibus, vitae sollicitudin nibh iaculis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum, erat at scelerisque dignissim, dolor lectus commodo augue, tincidunt mollis nunc massa et magna. Integer consectetur commodo facilisis. Phasellus commodo accumsan dapibus. Quisque bibendum, elit eget placerat dapibus, ante urna viverra diam, et condimentum lorem ipsum ac leo. Curabitur id condimentum mauris.",
     technologies: [
@@ -56,6 +62,7 @@ export const projects: ProjectProps[] = [
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie quam sit amet turpis dapibus, vitae sollicitudin nibh iaculis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum, erat at scelerisque dignissim, dolor lectus commodo augue, tincidunt mollis nunc massa et magna. Integer consectetur commodo facilisis. Phasellus commodo accumsan dapibus. Quisque bibendum, elit eget placerat dapibus, ante urna viverra diam, et condimentum lorem ipsum ac leo. Curabitur id condimentum mauris.",
     technologies: ["Java", "Java GUI", "MySQL", "Git", "Github"],
   },
+
   {
     img: "/images/trial-project.jpg",
     projectName: "Employee Management System",
