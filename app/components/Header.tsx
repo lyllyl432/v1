@@ -18,7 +18,7 @@ const Header = () => {
       sections.forEach((section) => {
         const sectionTop = section.offsetTop;
         const sectionHeight = section.clientHeight;
-        if (window.scrollY >= sectionTop - sectionHeight / 4) {
+        if (window.scrollY >= sectionTop - sectionHeight / 6) {
           menuRef.current = section.getAttribute("id")!;
         }
       });
